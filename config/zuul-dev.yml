@@ -31,3 +31,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
+spring:
+  cloud:
+    config:
+      override-none: true

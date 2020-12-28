@@ -24,3 +24,8 @@ spring:
   profiles: user2
 server:
   port: 8102  
+
+spring:
+  cloud:
+    config:
+      override-none: true
